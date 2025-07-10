@@ -3,9 +3,9 @@
 describe('fillTank', () => {
   const { fillTank } = require('./fillTank');
 
-  it('should full tank if amount is not defined', () => {
+  it('should full tank if amount is not defined.', () => {
     const customer = {
-      money: 3000,
+      money: 4000,
       vehicle: {
         maxTankCapacity: 40,
         fuelRemains: 8,
